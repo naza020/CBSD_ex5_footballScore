@@ -33,7 +33,7 @@ public class FootballScore {
             if (input.equals("")){
                 isExit=true;
             }else{
-                ss.setSourceLine(input);
+                ss.setScoreLine(input);
             }
         }while(!isExit);
     }

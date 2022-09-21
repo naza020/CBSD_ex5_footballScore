@@ -18,7 +18,7 @@ public class ScoreSource {
         listeners = new ArrayList<>();
     }
 
-    public void setSourceLine(String val) {
+    public void setScoreLine(String val) {
         fireScoreEvent(new ScoreEvent(this, val));
     }
 
